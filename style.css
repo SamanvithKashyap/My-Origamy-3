@@ -1,0 +1,39 @@
+        body {
+        background-color: tomato;   
+        }
+
+        h4,
+        h2 {
+            background-color: purple;
+            text-align: center;
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .item:hover img{
+            opacity:0.33;
+        }
+        .other {
+            display: flex;
+            justify-content:space-around;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        .ll {
+            justify-content:center;
+            margin-left: 28%;
+            text-decoration: none;
+            color: white;
+            font-size: larger;
+            opacity: 80%;
+        }
+        .ll:hover{
+            opacity: 200%;
+        }
